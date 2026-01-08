@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/portfolio/web-development1/lorongstadium.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>WELCOME TO OUR SITE!</title>
+</head>
+<body>
+
+    <!-- ======== HEADER ======== -->
+     <header class="header">
+        <div class="container">
+            <div class="logo"><a class="go-home"><img src="/image/logo.png" alt=""></a></div>
+                <nav class="nav">
+                    <a class="go-home active">Beranda</a>
+                    <a href="/tentang-kami/tentang-kami.html">Tentang Kami</a>
+                    <a href="/layanan/layanan.html">Layanan</a>
+                    <a href="/portfolio/portfolio.html">Portfolio</a>
+                    <a href="/blog/blog.html">Blog</a>
+                </nav>
+                <a href="/kontak-kami/kontak-kami.html" class="btn-contact">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Kontak Kami
+                </a>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </div>
+    </header>
+
+    <!-- ======== OVERLAY MOBILE MENU ======== -->
+    <div class="overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-header">
+            <button class="close-btn" id="closeMenu">×</button>
+        </div>
+        <a href="go-home">Beranda</a>
+        <a href="/tentang-kami/tentang-kami.html">Tentang Kami</a>
+        <a href="/layanan/layanan.html">Layanan</a>
+        <a href="/portfolio/portfolio.html">Portfolio</a>
+        <a href="/blog/blog.html">Blog</a>
+        <a href="/kontak-kami/kontak-kami.html" class="mobile-contact">
+            <i class="fa-brands fa-whatsapp"></i>
+            Kontak Kami
+        </a>
+    </div>
+
+    
+    <!-- ======== COVER ======== -->
+    <div class="cover">
+        <div class="cover-content">
+            <h1>Web Project — Lorongstadium</h1>
+            <span class="about-company">Website artikel yang membahas sepak bola sebagai fenomena sosial, budaya, dan kehidupan masyarakat.</span>
+        </div>
+        <div class="cover-img"></div>
+    </div>
+
+
+    <!-- ======== PORTFOLIO CONTENT ======== -->
+     <div class="portfolio">
+        <div class="portfolio-content">
+            <div class="portfolio-card">
+                <img src="/image/portfolio/web-lorongstadium/3.jpg" alt="">
+                <h1>Latar Belakang Project</h1>
+                <p>
+                    Lorongstadium hadir sebagai media digital berbasis web yang memadukan artikel sepak bola dengan isu-isu sosial yang hidup di sekitarnya. Sepak bola tidak hanya dipandang sebagai olahraga, tetapi juga sebagai fenomena sosial yang berkaitan dengan identitas, budaya, solidaritas, hingga kritik terhadap ketidakadilan.
+                    </br></br>
+                    Minimnya media yang membahas sepak bola dari sudut pandang reflektif dan kritis menjadi latar belakang utama pengembangan website ini. Lorongstadium dibangun untuk menjadi ruang alternatif bagi penulis, penggemar sepak bola, dan pembaca umum yang ingin menikmati tulisan mendalam, opini, serta narasi sepak bola yang menyentuh realitas sosial masyarakat.
+                </p>
+            </div>
+            <div class="portfolio-card">
+                <img src="/image/portfolio/web-lorongstadium/2.jpg" alt="">
+                <h1>Konsep Desain dan Visual</h1>
+                <p>
+                    Konsep desain dan visual Lorongstadium mengusung gaya editorial modern dengan pendekatan yang sederhana, tenang, dan berkarakter. Desain difokuskan pada kenyamanan membaca, sehingga tata letak dibuat rapi dengan ruang putih yang cukup dan hierarki konten yang jelas. Tipografi dipilih dengan karakter tegas namun tetap humanis untuk mendukung penyampaian tulisan yang serius dan reflektif.
+                    </br></br>
+                    Secara visual, Lorongstadium menggunakan palet warna netral dan cenderung gelap untuk menghadirkan suasana khas lorong stadion yang penuh cerita dan emosi. Penggunaan gambar dan ilustrasi bergaya dokumenter menjadi elemen pendukung yang memperkuat narasi, tanpa mendominasi konten utama. Keseluruhan desain dibuat responsif agar pengalaman membaca tetap optimal di berbagai perangkat.
+                </p>
+            </div>
+            <div class="portfolio-card">
+                <img src="/image/portfolio/web-lorongstadium/1.jpg" alt="">
+                <h1>Peran Bagi Brand</h1>
+                <p>
+                    Bagi brand, Lorongstadium berfungsi sebagai identitas digital yang merepresentasikan nilai, sudut pandang, dan sikap editorial yang diusung. Website ini membantu membangun positioning brand sebagai media independen yang berani mengangkat sepak bola dari perspektif sosial dan budaya, bukan sekadar mengejar tren atau berita cepat. Hal ini menciptakan diferensiasi yang kuat dibandingkan media olahraga konvensional.
+                    </br></br>
+                    Selain itu, Lorongstadium berperan dalam membangun kredibilitas dan kepercayaan audiens melalui konsistensi konten berkualitas. Website ini juga menjadi fondasi bagi pengembangan komunitas pembaca dan penulis, membuka peluang kolaborasi, diskusi, serta perluasan brand ke ranah lain seperti event, riset, atau produk media berbasis sepak bola dan isu sosial.
+                </p>
+            </div>
+            <div class="mockup">
+                <img src="/image/portfolio/web-lorongstadium/4.jpg" alt="">
+                <img src="/image/portfolio/web-lorongstadium/5.jpg" alt="">
+                <img src="/image/portfolio/web-lorongstadium/6.jpg" alt="">
+                <img src="/image/portfolio/web-lorongstadium/7.jpg" alt="">
+            </div>
+
+            <div class="image-popup" id="imagePopup">
+                <span class="close-btn">&times;</span>
+                <img id="popupImg" src="" alt="">
+            </div>
+
+            <div class="web-btn">
+                <a href="https://lorongstadium.github.io" target="_blank" class="btn-card"><span>Kunjungi Website</span></a>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- ======== CTA ======== -->
+    <div class="cta">
+        <div class="cta-content">
+            <h1>Website Profesional & Desain Grafis Berkualitas</h1>
+            <p>
+                vcreative.id membantu bisnis tampil lebih profesional melalui website yang
+                fungsional dan desain grafis yang terarah, komunikasi mudah, dan hasil sesuai kebutuhan.
+            </p>
+            <a href="#"  target="_blank" class="cta-btn" onclick="kirimWA()">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Konsultasi Sekarang</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h2>VCreativeID</h2>
+            <p class="footer-p">vcreative.id adalah layanan kreatif yang menyediakan jasa pembuatan website dan
+                desain grafis untuk kebutuhan bisnis maupun personal. Kami membantu menghadirkan
+                identitas digital yang profesional, modern, dan mudah dikenali, sehingga mampu
+                meningkatkan kepercayaan dan nilai brand Anda.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="go-home">Beranda</a></li>
+                <li><a href="/tentang-kami/tentang-kami.html">Tentang Kami</a></li>
+                <li><a href="../layanan/layanan.html?tab=webdev">Layanan</a></li>
+                <li><a href="/portfolio/portfolio.html">Portfolio</a></li>
+                <li><a href="/blog/blog.html">Blog</a></li>
+                <li><a href="/FAQs/FAQs.html">FAQs</a></li>
+                <li><a href="/kontak-kami/kontak-kami.html">Kontak Kami</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Layanan</h3>
+            <ul>
+                <li><a href="/layanan/layanan.html?tab=webdev">Web Development</a></li>
+                <li><a href="/layanan/layanan.html?tab=graphic">Graphic Design</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Kontak</h3>
+            <ul>
+                <li><p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vcreative2024@gmail.com"  target="_blank">vcreative2023@gmail.com</a></p></li>
+                <li><p>WhatsApp: <a href="https://wa.me/6285135056496/"  target="_blank">0851-3505-6496</a></p></li>
+                <li><p>Instagram: <a href="https://www.instagram.com/vcreative.id/"  target="_blank">@vcreative.id</a></p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 VCreativeID. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="/portfolio/web-development1/lorongstadium.js"></script>
+
+</body>
+</html>
